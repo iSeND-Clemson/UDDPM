@@ -16,7 +16,6 @@ Wildfires have devastating impacts on natural environments and human settlements
 
 ---
 
----
 
 ## Key Features
 
