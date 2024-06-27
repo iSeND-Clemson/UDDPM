@@ -56,3 +56,16 @@ For more details, visit the [Project Page](https://arazi2.github.io/aisends.gith
 **Corresponding Author:** Abolfazl Razi (Email: <arazi@clemson.edu>)
 
 **Funding:** This project is supported by the National Science Foundation under Grant Number CNS-2204445. Special thanks to USDA Forest Service and Kaibab National Forest administration.
+
+
+
+
+# Citation
+<a href="https://arxiv.org/abs/2403.03463">FLAME Diffuser: Grounded Wildfire Image Synthesis using Mask Guided Diffusion</a>
+
+@article{wang2024flame,
+  title={FLAME Diffuser: Grounded Wildfire Image Synthesis using Mask Guided Diffusion},
+  author={Wang, Hao and Boroujeni, Sayed Pedram Haeri and Chen, Xiwen and Bastola, Ashish and Li, Huayu and Razi, Abolfazl},
+  journal={arXiv preprint arXiv:2403.03463},
+  year={2024}
+}
