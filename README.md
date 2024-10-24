@@ -1,17 +1,17 @@
 
 # FLAME Diffuser: Wildfire Image Synthesis using Mask Guided Diffusion
 
+
+
 ## Introduction
 
-Wildfires have devastating impacts on natural environments and human settlements. Existing fire detection systems rely on large, annotated datasets that often lack geographic diversity, leading to decreased generalizability. To address this, we introduce the **FLAME Diffuser**, a diffusion-based framework that synthesizes high-quality wildfire images with precise flame location control. This training-free framework eliminates the need for model fine-tuning and provides a dataset of 10,000 high-quality images, enhancing the development of robust wildfire detection models.
+Wildfires have devastating impacts on natural environments and human settlements. Existing fire detection systems rely on large, annotated datasets that often lack geographic diversity, leading to decreased generalizability. To address this, we introduce the **FLAME Diffuser**, a diffusion-based framework that synthesizes high-quality wildfire images with precise flame location control. This training-free framework eliminates the need for model fine-tuning, enhancing the development of robust wildfire detection models.
 
 
-## FLAME-SD Dataset
+## Sample Dataset
 
-<img src="./Figure/sample.jpg" width=70%>
+<img src="./Figure/grid.jpg" width=100%>
 
-- **Content:** 10,000 RGB Synthesized images, each paired with binary masks and metadata.
-- **Quality Control Tool:** CLIP-based filtering ensures high confidence and relevance of wildfire content.
 - **Dataset:** Download from [Google Drive](https://drive.google.com/drive/folders/1Brt5TvkdTUqJPGtXSLGQNCc3kgk2NygD?usp=sharing)
 
 ---
@@ -26,42 +26,33 @@ Wildfires have devastating impacts on natural environments and human settlements
 
 ## Methodology
 
-<img src="./Figure/frame.png" width=90%>
+<img src="./Figure/diffuser_2.png" width=90%>
 
 1. **Mask Generation:** 
    - Masks are generated to define areas for fire elements using fundamental shapes like rectangles and circles.
-   - Noise is added to the masks to create a smoother integration process.
+   - Perlin noise is added to the masks to create a smoother integration process.
 
 2. **Diffusion Process:**
    - Combines masks with raw images, processed through a Variational Autoencoder (VAE) to generate latent variables.
    - The denoising U-Net refines these variables to produce realistic images guided by text prompts.
 
-3. **Data Filtering:**
-   - Utilizes CLIP for filtering synthesized images, ensuring high-quality and relevant wildfire content.
 
 ## Experimental Results
 
-<img src="./Figure/sample_2.jpg" width=90%>
+<img src="./Figure/fid.jpg" width=90%>
 
-- **Mask-Guided Control:** Demonstrated effective integration of fire elements into images, maintaining the original style.
-- **Background and Style Control:** Adjusting mask noise and text prompts allowed precise control over image content and style.
+- **High-Quality:** Lowest FID score compared to other methods, indicating better realistic styles.
+- **Consistency:** Image content does not shift, the semantic information is well-kept in synthesized images.
+
+
+<img src="./Figure/table.jpg" width=70%>
 
 For more details, visit the [Project Page](https://arazi2.github.io/aisends.github.io/project/flame).
 
----
-**Authors:** Hao Wang, Sayed Pedram Haeri Boroujeni, Xiwen Chen, Ashish Bastola, Huayu Li, Wenhui Zhu, and Abolfazl Razi
-
-**Affiliations:** Clemson University, The University of Arizona, Arizona State University
-
-**Corresponding Author:** Abolfazl Razi (Email: <arazi@clemson.edu>)
-
-**Funding:** This project is supported by the National Science Foundation under Grant Number CNS-2204445. Special thanks to USDA Forest Service and Kaibab National Forest administration.
 
 
-
-
-# Citation
-<a href="https://arxiv.org/abs/2403.03463">FLAME Diffuser: Grounded Wildfire Image Synthesis using Mask Guided Diffusion</a>
+# Citation 
+<a href="https://arxiv.org/abs/2403.03463">FLAME Diffuser: Wildfire Image Synthesis using Mask Guided Diffusion</a>
 
 @article{wang2024flame,
   title={FLAME Diffuser: Grounded Wildfire Image Synthesis using Mask Guided Diffusion},
