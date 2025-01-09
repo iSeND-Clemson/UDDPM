@@ -1,7 +1,7 @@
 
 # FLAME Diffuser: Wildfire Image Synthesis using Mask Guided Diffusion
 
-News: This paper is accepted by the IEEE BigData 2024
+News: This paper is accepted by the [IEEE BigData 2024](https://www3.cs.stonybrook.edu/~ieeebigdata2024/)
 
 
 ## Introduction
