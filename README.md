@@ -9,6 +9,7 @@ News: This paper is accepted by the [IEEE BigData 2024](https://www3.cs.stonybro
 Wildfires have devastating impacts on natural environments and human settlements. Existing fire detection systems rely on large, annotated datasets that often lack geographic diversity, leading to decreased generalizability. To address this, we introduce the **FLAME Diffuser**, a diffusion-based framework that synthesizes high-quality wildfire images with precise flame location control. This training-free framework eliminates the need for model fine-tuning, enhancing the development of robust wildfire detection models.
 
 ## Quick Tutorial
+Please download stable-diffusion-v1-5 model file from: `https://huggingface.co/stable-diffusion-v1-5/stable-diffusion-v1-5/resolve/main/v1-5-pruned.ckpt` and place it to the `FLAME_SD\models\ldm\stable-diffusion-v1\` folder. <br>
 Run `Flame_diffuser_perlin_mask.py` as a demo to show the proposed 'perlin_mask' method from the paper.
 
 Go to [exp](exp) to check the mask-related functions such as `mask_generator.py` <br>
