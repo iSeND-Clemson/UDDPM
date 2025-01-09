@@ -1,6 +1,7 @@
 
 # FLAME Diffuser: Wildfire Image Synthesis using Mask Guided Diffusion
 
+News: This paper is accepted by the IEEE BigData 2024
 
 
 ## Introduction
@@ -10,9 +11,10 @@ Wildfires have devastating impacts on natural environments and human settlements
 ## Quick Tutorial
 Run `Flame_diffuser_perlin_mask.py` as a demo to show the proposed 'perlin_mask' method from the paper.
 
-Go to [exp](exp) to check the mask-related functions such as 'mask generation'
+Go to [exp](exp) to check the mask-related functions such as `mask_generator.py` <br>
 Run `dataset_eval.py` to produce the results of FID, CLIP Score, and CLIP Confidence. It will generate annotation for the test folder as well.
 
+We will update more details later according to the request. Please contact us anytime if you have questions.
 
 ## Sample Dataset
 
