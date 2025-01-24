@@ -69,6 +69,8 @@ For more details, visit the [Project Page](https://arazi2.github.io/aisends.gith
 
 **Funding:** This project is supported by the National Science Foundation under Grant Number CNS-2204445. Special thanks to USDA Forest Service and Kaibab National Forest administration.
 
+# Acknowledgments
+Special thanks to Dr. Siyu Huang for his comments on experiment designs. 
 
 # Citation 
 <a href="https://doi.ieeecomputersociety.org/10.1109/BigData62323.2024.10826040">FLAME Diffuser: Wildfire Image Synthesis using Mask Guided Diffusion</a>
