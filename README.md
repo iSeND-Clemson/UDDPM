@@ -60,6 +60,15 @@ We will update more details later according to the request. Please contact us an
 For more details, visit the [Project Page](https://arazi2.github.io/aisends.github.io/project/flame).
 
 
+---
+**Authors:** Hao Wang, Sayed Pedram Haeri Boroujeni, Xiwen Chen, Ashish Bastola, Huayu Li, Wenhui Zhu, and Abolfazl Razi
+
+**Affiliations:** Clemson University, The University of Arizona, Arizona State University
+
+**Corresponding Author:** Abolfazl Razi (Email: <arazi@clemson.edu>)
+
+**Funding:** This project is supported by the National Science Foundation under Grant Number CNS-2204445. Special thanks to USDA Forest Service and Kaibab National Forest administration.
+
 
 # Citation 
 <a href="https://doi.ieeecomputersociety.org/10.1109/BigData62323.2024.10826040">FLAME Diffuser: Wildfire Image Synthesis using Mask Guided Diffusion</a>
