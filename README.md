@@ -61,6 +61,14 @@ For more details, visit the [Project Page](https://arazi2.github.io/aisends.gith
 
 
 ---
+# Contact
+
+**Contribution:** 
+[hao9](https://github.com/AIS-Clemson)
+[xiwenc1](https://github.com/xiwenc1)
+[ChongQingNoSubway](https://github.com/ChongQingNoSubway)
+[HuayuLiArizona](https://github.com/HuayuLiArizona)
+
 **Authors:** Hao Wang, Sayed Pedram Haeri Boroujeni, Xiwen Chen, Ashish Bastola, Huayu Li, Wenhui Zhu, and Abolfazl Razi
 
 **Affiliations:** Clemson University, The University of Arizona, Arizona State University
