@@ -76,9 +76,9 @@ For more details, visit the [Project Page](https://arazi2.github.io/aisends.gith
 
 **Corresponding Author:** Abolfazl Razi (Email: <arazi@clemson.edu>)
 
-**Funding:** This project is supported by the National Science Foundation under Grant Number CNS-2204445. Special thanks to USDA Forest Service and Kaibab National Forest administration.
-
 # Acknowledgments
+This project is supported by the National Science Foundation under Grant Number CNS-2204445. Special thanks to USDA Forest Service and Kaibab National Forest administration. <br>
+
 Special thanks to Dr. Siyu Huang for his comments on experiment designs. 
 
 # Citation 
