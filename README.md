@@ -66,8 +66,9 @@ For more details, visit the [Project Page](https://arazi2.github.io/aisends.gith
 **Contribution:** <br>
 [AIS-Clemson](https://github.com/AIS-Clemson) <br>
 [xiwenc1](https://github.com/xiwenc1) <br>
-[ChongQingNoSubway](https://github.com/ChongQingNoSubway) <br>
+[abastola0](https://github.com/abastola0) <br>
 [HuayuLiArizona](https://github.com/HuayuLiArizona) <br>
+[ChongQingNoSubway](https://github.com/ChongQingNoSubway) <br>
 
 **Authors:** Hao Wang, Sayed Pedram Haeri Boroujeni, Xiwen Chen, Ashish Bastola, Huayu Li, Wenhui Zhu, and Abolfazl Razi
 
