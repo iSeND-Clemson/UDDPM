@@ -63,7 +63,7 @@ For more details, visit the [Project Page](https://arazi2.github.io/aisends.gith
 ---
 # Contact
 
-**Contribution:** 
+**Contribution:** <br>
 [AIS-Clemson](https://github.com/AIS-Clemson) <br>
 [xiwenc1](https://github.com/xiwenc1) <br>
 [ChongQingNoSubway](https://github.com/ChongQingNoSubway) <br>
